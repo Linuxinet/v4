@@ -9,7 +9,7 @@ const StyledLoader = styled.div`
   ${({ theme }) => theme.mixins.flexCenter};
   position: fixed;
   top: 0;
-  bottom: 0;
+  bottom: 0;z
   left: 0;
   right: 0;
   width: 100%;
@@ -29,7 +29,7 @@ const StyledLoader = styled.div`
       margin: 0 auto;
       fill: none;
       user-select: none;
-      #B {
+      #V {
         opacity: 0;
       }
     }
@@ -53,8 +53,8 @@ const Loader = ({ finishLoading }) => {
         strokeDashoffset: [anime.setDashoffset, 0],
       })
       .add({
-        targets: '#logo #B',
-        duration: 700,
+        targets: '#logo #V',
+        duration: 500,
         easing: 'easeInOutQuart',
         opacity: 1,
       })

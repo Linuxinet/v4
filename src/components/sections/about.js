@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Web Penetration Testing',
+    'API Penetration testing',
+    'Android App Pentesting',
+    'Graphql',
+    'Golang',
+    'Python',
+    'Bash',
+    'Solidity',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +144,30 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Vinay Kumar, a Bugbounty Hunter Based in Andhra Pradesh, India. I
+              Enjoy Playing with web technologies to identify security flaws and get them fixed. In
+              addition to my security expertise, I also have experience using Golang to build
+              automated security tools. I have put these skills to use in my Previous role as a
+              security research intern at{' '}
+              <a href="https://www.appknox.com/" target="_blank" rel="noreferrer">
+                Appknox
+              </a>
+              . In this role, I have been able to apply my knowledge and experience to help clients
+              protect their web applications from attack.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              As a highly skilled freelancing web application pentester, I am dedicated to providing
+              top-notch services to clients. My expertise lies in thoroughly analyzing the
+              functionality of a web application and identifying potential security weaknesses. My
+              methodology is rooted in the OWASP Top 10 vulnerabilities, ensuring that all possible
+              vulnerabilities are detected and addressed. I am committed to delivering high-quality
+              results, making sure that my clients receive the best possible protection against
+              cyber-attacks. With my expertise and attention to detail, I am confident that I can
+              deliver the results you are looking for.
             </p>
 
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few things I'm capable:</p>
           </div>
 
           <ul className="skills-list">
@@ -175,7 +181,7 @@ const About = () => {
               className="img"
               src="../../images/me.jpg"
               width={500}
-              quality={95}
+              quality={90}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
             />

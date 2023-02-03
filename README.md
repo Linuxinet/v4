@@ -73,6 +73,11 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
    npm run serve
    ```
 
+## Logo Customisation guide
+
+- Loader logo => src\components\icons\loader.js
+- Main page Logo => src\components\icons\logo.js
+
 ## 🎨 Color Reference
 
 | Color          | Hex                                                                |
