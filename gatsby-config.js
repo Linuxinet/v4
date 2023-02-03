@@ -2,10 +2,10 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Vinay Kumar Rasala',
+    title: 'Vinay Kumar Portfoliio',
     description:
       'Vinay Kumar is a freelance web pentester who specializes in securing (and occasionally designing) web applications.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://0xlinuxinet.netlify.app/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@R007_BR34K3R',
   },
@@ -152,7 +152,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingId: 'G-9Y1ZNHR0SB',
       },
     },
   ],
