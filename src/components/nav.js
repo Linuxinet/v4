@@ -182,6 +182,16 @@ const Nav = ({ isHome }) => {
     </a>
   );
 
+  const BlogLink = (
+    <a
+      className="resume-button"
+      href="https://rayleigh.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer">
+      Blog
+    </a>
+  );
+
   return (
     <StyledHeader scrollDirection={scrollDirection} scrolledToTop={scrolledToTop}>
       <StyledNav>
@@ -199,6 +209,7 @@ const Nav = ({ isHome }) => {
                   ))}
               </ol>
               <div>{ResumeLink}</div>
+              <div>{BlogLink}</div>
             </StyledLinks>
 
             <Menu />
@@ -233,6 +244,7 @@ const Nav = ({ isHome }) => {
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                     <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
                       {ResumeLink}
+                      {BlogLink}
                     </div>
                   </CSSTransition>
                 )}

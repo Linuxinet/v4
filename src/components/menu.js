@@ -269,6 +269,13 @@ const Menu = () => {
             <a href="/Vinay_Kumar_Rasala-resume.pdf" className="resume-link">
               Resume
             </a>
+            <a
+              className="resume-link"
+              href="https://rayleigh.netlify.app/"
+              target="_blank"
+              rel="noreferrer">
+              Blog
+            </a>
           </nav>
         </StyledSidebar>
       </div>
