@@ -185,7 +185,7 @@ const Nav = ({ isHome }) => {
   const BlogLink = (
     <a
       className="resume-button"
-      href="https://rayleigh.netlify.app/"
+      href="https://rayleigh.gitbook.io/blog"
       target="_blank"
       rel="noopener noreferrer">
       Blog

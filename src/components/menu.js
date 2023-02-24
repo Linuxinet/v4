@@ -271,7 +271,7 @@ const Menu = () => {
             </a>
             <a
               className="resume-link"
-              href="https://rayleigh.netlify.app/"
+              href="https://rayleigh.gitbook.io/blog"
               target="_blank"
               rel="noreferrer">
               Blog
